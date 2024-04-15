@@ -90,3 +90,24 @@ a.socials {
   color: gray;
   margin-left: 10px;
 }
+@media screen and (max-width: 768px) {
+  h1.hello {
+    font-size: 48px;
+  }
+
+  .card {
+    width: 45%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  h1.hello {
+    font-size: 36px;
+  }
+
+  .card {
+    width: 100%;
+    height: auto;
+  }
+}
